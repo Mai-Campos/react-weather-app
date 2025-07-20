@@ -10,6 +10,9 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
+
+  "homepage": "https://mai-campos.github.io/react-weather-app",
+  
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
