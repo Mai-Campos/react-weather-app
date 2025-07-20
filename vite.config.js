@@ -6,4 +6,3 @@ export default defineConfig({
   base: '/react-weather-app/',
   plugins: [react()],
 })
-W
