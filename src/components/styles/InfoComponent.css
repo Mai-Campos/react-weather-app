@@ -1,0 +1,103 @@
+
+.info {
+  background-color: #fff;              
+  padding: 2rem;                         
+  border-radius: 12px;                   
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);        
+  width: 58%;         
+}
+
+.city-name {
+  text-align: center;                    
+  margin-bottom: 1.5rem;                 
+  font-size: 1.5rem;                    
+  color: #333;                          
+}
+
+
+.data-grid {
+  display: flex;                         
+  justify-content: space-between;       /* Espacio entre columnas izquierda y derecha */
+  gap: 2rem;                             /* Espacio horizontal entre columnas */
+}
+
+
+.left-column,
+.right-column {
+  display: flex;                         
+  flex-direction: column;               /* Apila verticalmente los <p> */
+  gap: 1rem;                             /* Espacio entre los elementos dentro de la columna */
+}
+
+.left-column {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.left-column p {
+  margin: 0;
+}
+
+/* Estilo básico para los párrafos que muestran los datos */
+.left-column p,
+.right-column p {
+  margin: 0;                             
+  font-size: 1rem;                       /* Tamaño de fuente estándar */
+  color: #555;                           /* Gris medio para contraste sin ser muy oscuro */
+}
+
+.Clear {
+  background: linear-gradient(135deg, #fceabb, #f8b500); /* amarillo cálido */
+  color: #333;
+}
+
+.Clouds {
+  background: linear-gradient(135deg, #d7dde8, #a1b1c2); /* gris azulado */
+  color: #333;
+}
+
+.Rain,
+.Drizzle {
+  background: linear-gradient(135deg, #5d6d7e, #4a6074); /* azul grisáceo */
+  color: white;
+}
+
+.Thunderstorm {
+  background: linear-gradient(135deg, #2c3e50, #1c2833); /* azul muy oscuro */
+  color: white;
+}
+
+.Snow {
+  background: linear-gradient(135deg, #e0f7fa, #ffffff); /* blanco azulado */
+  color: #333;
+}
+
+.Mist,
+.Fog,
+.Haze {
+  background: linear-gradient(135deg, #cfd8dc, #b0bec5); /* gris tenue */
+  color: #333;
+}
+
+.Smoke {
+  background: linear-gradient(135deg, #6e7b8b, #4b586e); /* gris oscuro azulado */
+  color: white;
+}
+
+.Dust,
+.Sand,
+.Ash {
+  background: linear-gradient(135deg, #c2b280, #a3906d); /* tonos tierra */
+  color: #333;
+}
+
+.Squall {
+  background: linear-gradient(135deg, #4a5568, #2d3748); /* gris azulado oscuro */
+  color: white;
+}
+
+.Tornado {
+  background: linear-gradient(135deg, #3b3b3b, #000000); /* negro grisáceo */
+  color: white;
+}
